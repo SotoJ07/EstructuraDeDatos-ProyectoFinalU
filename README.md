@@ -1,7 +1,7 @@
 # EstructuraDeDatos-ProyectoFinalU
 Repository para proyecto de U
 
-<em> # README De File Systems International</em>
+<em> README De File Systems International</em>
 
 Título e imagen de portada: 
 
