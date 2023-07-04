@@ -1,0 +1,51 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package file.systems.international;
+
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+
+/**
+ *
+ * @author jenns
+ */
+
+public class FSIFrame extends JFrame implements ActionListener {
+    
+    JButton boton; 
+
+    FSIFrame(){ // el constructor se llama FSIFrame
+       this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Para apagar el programa cuando le da click en exit o X
+       this.setLayout(new FlowLayout()); 
+       boton = new JButton("Seleccionar Archivo"); // se le pone el nombre del boton
+       boton.addActionListener(this); // se agrega el listener del boton
+       this.add(boton); // se activa el boton
+       this.pack();
+       this.setVisible(true); // se setea visible
+    }
+        
+    @Override
+    public void actionPerformed(ActionEvent e) {
+    
+        if(e.getSource()==boton){ // si se selecciona la opcion de boton se hace lo siguiente
+            
+            JFileChooser selecArchivo = new JFileChooser(); // se crea el metodo selecArchivo (seleccionar archivo)
+            
+            selecArchivo.setCurrentDirectory(new File("."));  // este "." location es el default donde esta el proyecto de netbeans, esto se puede cambiar a que sea otro default
+            
+            int respuesta = selecArchivo.showSaveDialog(null); // cuando selecionamos y tenemos la respuesta 
+            
+        if(respuesta == JFileChooser.APPROVE_OPTION){  //Si la respuesta es un valor seleccionado (no X o Exit) 
+            File archivo = new File(selecArchivo.getSelectedFile().getAbsolutePath()); // se extrae toda el path 
+            System.out.print(archivo); // se imprime el path
+        }
+    }
+}
+    }
