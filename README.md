@@ -17,7 +17,7 @@ El Proyecto se da por la necesidad de la empresa FILE SYSTEMS INTERNATIONAL que 
 
 [Estado del proyecto]
 
-En fase inicial
+:construction: Proyecto en construcción :construction:
 
 [Características de la aplicación y demostración]
 
