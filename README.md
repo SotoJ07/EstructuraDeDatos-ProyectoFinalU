@@ -21,6 +21,7 @@ El Proyecto se da por la necesidad de la empresa FILE SYSTEMS INTERNATIONAL que 
 - `Funcionalidad 2`: Aplicacion tendra un GUI para ver los metadatos del archivo 2-
 
 ***📁 Acceso al proyecto***
+
 Accesso brindado al profesor del curso y los compañeros intengrantes, el proyecto esta abierto al publico en GitHub
 
 ***Tecnologías utilizadas***
