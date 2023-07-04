@@ -7,7 +7,7 @@ imagen de portada: [File Systems International.pdf](https://github.com/SotoJ07/E
 
 Índice
 
-[Título e imagen de portada]
+Título e imagen de portada
 
 [Índice]
 
@@ -19,10 +19,9 @@ El Proyecto se da por la necesidad de la empresa FILE SYSTEMS INTERNATIONAL que 
 
 :construction: Proyecto en construcción :construction:
 
-[Características de la aplicación y demostración]
+Características de la aplicación y demostración
 
-Aplicacion tiene un GUI para agregar el archivo a una carpeta.
-Aplicacion tendra un GUI para ver los metadatos del archivo
+- `Funcionalidad 1`: Aplicacion tiene un GUI para agregar el archivo a una carpeta. 1- `Funcionalidad 2`: Aplicacion tendra un GUI para ver los metadatos del archivo 2-
 
 [Acceso al proyecto]
 
