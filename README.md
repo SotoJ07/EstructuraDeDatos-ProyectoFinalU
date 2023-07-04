@@ -7,8 +7,6 @@ imagen de portada: [File Systems International.pdf](https://github.com/SotoJ07/E
 
 ***Índice***
 
-***Título e imagen de portada***
-
 ***Descripción del proyecto***
 
 El Proyecto se da por la necesidad de la empresa FILE SYSTEMS INTERNATIONAL que desea actualizar sus registros de archivos para un mejor manejo de informacion. 
@@ -22,19 +20,25 @@ El Proyecto se da por la necesidad de la empresa FILE SYSTEMS INTERNATIONAL que 
 - `Funcionalidad 1`: Aplicacion tiene un GUI para agregar el archivo a una carpeta. 1-
 - `Funcionalidad 2`: Aplicacion tendra un GUI para ver los metadatos del archivo 2-
 
-***Acceso al proyecto***
-\## 📁 Acceso al proyecto
+***📁 Acceso al proyecto***
 Accesso brindado al profesor del curso y los compañeros intengrantes, el proyecto esta abierto al publico en GitHub
 
 ***Tecnologías utilizadas***
 
 Java Netbeans
+
 java.awt.FlowLayout;
+
 java.awt.event.ActionEvent;
+
 java.awt.event.ActionListener;
+
 java.io.File;
+
 javax.swing.JButton;
+
 javax.swing.JFileChooser;
+
 javax.swing.JFrame;
 
 ***Personas Contribuyentes***
@@ -44,7 +48,11 @@ Profesor: Jose Alvarado Moreira
 ***Personas-Desarrolladores del Proyecto***
 
 Ruth Mileny Ocampo Romero
+
 Kevin Ruiz Acuña
+
 Jose Daniel Miranda Roman
+
 Juan Diego Ramirez Vargas
+
 Jennifer Soto Mora
