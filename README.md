@@ -1,9 +1,10 @@
 # EstructuraDeDatos-ProyectoFinalU
 Repository para proyecto de U
 
-<em> README De File Systems International</em>
+<h1 align="center"> README De File Systems International </h1>
 
-Título e imagen de portada: 
+imagen de portada: [File Systems International.pdf](https://github.com/SotoJ07/EstructuraDeDatos-ProyectoFinalU/files/11943909/File.Systems.International.pdf)
+
 
 Insignias;
 Índice;
